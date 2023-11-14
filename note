@@ -1,0 +1,19 @@
+1. impostare la pagina html e le relative cdn di google foont- font awesome- style.css bootstrap.
+2. andare nel foglio style.css e mettere il selettore universale per la scrittura
+3. sempre su style.css crea la tua librelia di colori con root per poterli richiamare
+4. creatii anche delle classi generiche da poter richiamare
+
+5. INIZIA A PROGETTARE LA TUA NAVBAR E RICORDA:
+
+PER METTERE I LINK BIANCHI METTI: data-bs-theme="dark" oppure creati una tua classe 
+
+ms-auto per spostare a destra i link.
+me-auto per i link a sinistra
+
+fs-2 per grandezza font
+
+
+vari link:
+https://themewagon.com/themes/free-bootstrap-5-html-5-business-website-template-arsha/  TEMPLATE PER PRENDERE SPUNTO
+
+https://getcssscan.com/css-buttons-examples   LINK PER BOTTONI
