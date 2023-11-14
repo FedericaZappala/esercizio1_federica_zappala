@@ -7,23 +7,38 @@
     --main-blu: #37517E;
     --secondary-blu: #219ed8;
     --main-light: #f3f5fa;
+    --secondary-light: #7486a5;
 
 }
  /* CLASSI GENERICHE DA POTER RICHIAMARE*/
  .bg-main-blu{
     background-color: var(--main-blu);
  }
+
+ /* colori text */
  .text-blu-custom{
     color: var(--secondary-blu) !important;
  }
 .text-light-custom{
     color: var(--main-light);
 }
+.text-secondary-light{
+  color: var(--secondary-light);
+}
+
+/* FINE CLASSI GENERICHE */
+
+/* link navbar */
 .nav-link{
     margin: 0px 8px;
 }
 .nav-link:hover {
     color: var(--secondary-blu);
+}
+
+/* Padding per far attaccare l'header alla navbar */
+.padding-top-custom{
+  padding-top: 100px;
 }
 
  /* BOTTONE GET STARTED NAVBAR */
@@ -72,4 +87,21 @@
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
-/* FINE BOTTONE NAVBAR */
+/* FINE BOTTONE GET STARTED NAVBAR */
+
+/* inizio header */
+.masthead{
+ height:100vh;
+}
+
+/* bottone header */
+.custom-link{
+  text-decoration: none;
+  font-size: large;
+}
+
+/* icona bottone whatch video */
+.fa-circle-play:hover{
+  color: var(--secondary-blu);
+}
+

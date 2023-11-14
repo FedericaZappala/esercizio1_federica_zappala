@@ -17,3 +17,10 @@ vari link:
 https://themewagon.com/themes/free-bootstrap-5-html-5-business-website-template-arsha/  TEMPLATE PER PRENDERE SPUNTO
 
 https://getcssscan.com/css-buttons-examples   LINK PER BOTTONI
+
+FINE NAVBAR
+
+INIZIO HEADER
+1. creiamo il gred system
+2. creiamo UN PADDING per far attaccare l'header alla navbar senza lasciare lo spazietto bianco
+3. h-100 lo utilizzo per dire prenditi tutto lo spazio 
