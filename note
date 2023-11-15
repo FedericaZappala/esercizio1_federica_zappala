@@ -24,4 +24,8 @@ INIZIO HEADER
 1. creiamo il gred system
 2. creiamo UN PADDING per far attaccare l'header alla navbar senza lasciare lo spazietto bianco
 3. h-100 lo utilizzo per dire prenditi tutto lo spazio alli interno di una row.
-
+4. se vogliamo i bottoni da mobile uno di fianco all'altro mettiamo solo col-6
+5. se vogliamo che da mobile l'immagine vada sopra e la scritta sotto dobbiamo (in css possiamo modificare l'ordine degli elementi con la classe ORDER):
+Dobbiamo andare su index nella colonna che gestisce il testo e dobbiamo mettere ORDER-1 (da schermi grandi) ORDER-MD-2 (schermi piccoli)
+E nella colonna che gestisce l'immaggine dobbiamo mettere ORDER-2 (schermi grandi) ORDER-MD-1(schermi piccoli).
+6. Se voglio il titoto centrale da schermi piccoli devo agire sempre allo stesso modo, nella riga che gestische il titolo aggiunho TEXT-CENTER (da schermi grandi) e TEXT-MD-START(da schermi piccoli)
