@@ -23,4 +23,5 @@ FINE NAVBAR
 INIZIO HEADER
 1. creiamo il gred system
 2. creiamo UN PADDING per far attaccare l'header alla navbar senza lasciare lo spazietto bianco
-3. h-100 lo utilizzo per dire prenditi tutto lo spazio 
+3. h-100 lo utilizzo per dire prenditi tutto lo spazio alli interno di una row.
+

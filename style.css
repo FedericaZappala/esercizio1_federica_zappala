@@ -89,11 +89,9 @@
 }
 /* FINE BOTTONE GET STARTED NAVBAR */
 
-/* inizio header */
-.masthead{
- height:100vh;
-}
 
+
+/* INIZIO HEADER */
 /* bottone header */
 .custom-link{
   text-decoration: none;
@@ -104,4 +102,33 @@
 .fa-circle-play:hover{
   color: var(--secondary-blu);
 }
+/* animazione immaggine header */
+.img-animation{
+ animation-name: movimento;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* KEY FRAMES animazione immaggine header */
+@keyframes movimento {
+  0% { 
+    transform: translateY(20px);
+
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
