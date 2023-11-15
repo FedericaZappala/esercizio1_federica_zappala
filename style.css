@@ -15,6 +15,10 @@
     background-color: var(--main-blu);
  }
 
+ .bg-main-light{
+  background-color: var(--main-light);
+ }
+
  /* colori text */
  .text-blu-custom{
     color: var(--secondary-blu) !important;
@@ -110,10 +114,25 @@
  animation-direction: alternate;
 }
 
+/* FINE HEADER */
 
+/* INIZIO SEZIONE ICONE */
+/* per ridimesionare i loghi con il multiselettore */
+/* .col-md-2 > img {
+  width: 90px;
+  filter: grayscale(100);
+  transition: 0.5s;
+} */
 
-
-
+.dimensioni {
+  width: 90px;
+  filter: grayscale(100);
+  transition: 0.5s;
+}
+.dimensioni:hover {
+  transform: scale(1.2);
+  filter: none;
+}
 
 
 
