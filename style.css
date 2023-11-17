@@ -29,6 +29,12 @@
 .text-secondary-light{
   color: var(--secondary-light);
 }
+.text-main-blu{
+  color: var(--main-blu);
+}
+.text-black{
+  color: black;
+}
 
 /* FINE CLASSI GENERICHE */
 
@@ -94,7 +100,6 @@
 /* FINE BOTTONE GET STARTED NAVBAR */
 
 
-
 /* INIZIO HEADER */
 /* bottone header */
 .custom-link{
@@ -113,17 +118,10 @@
  animation-iteration-count: infinite;
  animation-direction: alternate;
 }
-
 /* FINE HEADER */
 
-/* INIZIO SEZIONE ICONE */
-/* per ridimesionare i loghi con il multiselettore */
-/* .col-md-2 > img {
-  width: 90px;
-  filter: grayscale(100);
-  transition: 0.5s;
-} */
 
+/* INIZIO SEZIONE ICONE (LOGHI) */
 .dimensioni {
   width: 90px;
   filter: grayscale(100);
@@ -133,6 +131,70 @@
   transform: scale(1.2);
   filter: none;
 }
+/* FINE SEZIONE ICONE (LOGHI)*/
+
+
+/* INIZIO SEZIONE ABOUT US */
+ul{
+  list-style: none;
+}
+ li{
+  display: flex;
+  justify-content: start;
+  color: var(--secondary-blu);
+ }
+/* bottone sezione About Us LEARN MORE */
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid var(--secondary-blu);
+  border-radius: 3px;
+  box-sizing: border-box;
+  color:var(--secondary-blu);
+  cursor: pointer;
+  display: inline-flex;
+  fill: var(--secondary-blu);
+  font-size: 16px;
+  font-weight: 600;
+  height: 37px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  border: var(--secondary-blu);
+  color:var(--secondary-blu);
+}
+
+.button-59:hover {
+  background-color: var(--secondary-blu);
+  border-color: var(--secondary-blu);
+  color: var(--main-light);
+  fill: var(--secondary-blu);
+}
+
+.button-59:active {
+  border-color: var(--secondary-blu);
+  color: var(--secondary-blu);
+  fill: var(--secondary-blu);
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+/* FINE SEZIONE ABOUT US */
 
 
 
@@ -140,6 +202,10 @@
 
 
 
+
+
+
+/* PER ULTIMI */
 
 /* KEY FRAMES animazione immaggine header */
 @keyframes movimento {

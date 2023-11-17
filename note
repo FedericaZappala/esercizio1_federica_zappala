@@ -47,9 +47,14 @@ dare una classe a tutti gli elementi e dare delle dimensioni sul foglio style.
 
 ADESSO:
 in css possiamo applicare un filtro alle immagini con la proprità FILTER: GREYSCALE(50) (La percentuale la scegliamo noi). E la mettiamo sempre ai figli diretti. 
+
 ADESSO:
 Se vogliamo che al passaggio del mouse si ingrandiscono e si vedano a colori dobbiamo richiamare la classe con :hover cosi:
+
 .col-md-2:hover {
   transform: scale(1.2);
   filter: grayscale(0);
 }
+(cosi non mi funziona perciò ho scelto opzione 2 di dare una classe mia e inserirla)
+
+SEZIONE ICONE FINITA
