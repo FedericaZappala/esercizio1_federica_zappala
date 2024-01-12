@@ -2,14 +2,15 @@
 *{
     font-family: 'Jost', sans-serif;
 }
+
 /* TABELLA COLORI DA UTILIZZARE */
 :root {
     --main-blu: #37517E;
     --secondary-blu: #219ed8;
     --main-light: #f3f5fa;
     --secondary-light: #7486a5;
-
 }
+
  /* CLASSI GENERICHE DA POTER RICHIAMARE*/
  .bg-main-blu{
     background-color: var(--main-blu);
@@ -35,10 +36,9 @@
 .text-black{
   color: black;
 }
-
 /* FINE CLASSI GENERICHE */
 
-/* link navbar */
+/* LINK NAVBAR */
 .nav-link{
     margin: 0px 8px;
 }
@@ -196,10 +196,22 @@ ul{
 }
 /* FINE SEZIONE ABOUT US */
 
-
-
-
-
+/* INIZIO SEZIONE ACCORDION */
+.accordion-container{
+  height: 80vh;
+  background-color: #f3f5fa;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+.accordion-button:active {
+  box-shadow: none;
+  background-color: transparent;
+}
+.accordion-item{
+  border: 0px;
+}
 
 
 
